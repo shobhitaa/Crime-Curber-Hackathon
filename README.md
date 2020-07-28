@@ -14,8 +14,6 @@ Programming Language Used: Java
 
 Software development kits used: Android SDK, Google Maps SDK
 
-API used: Maps Direction API, Google Directions API, Google Places API
-
 IDE Used: Android Studio
 
 Backend Development: Firebase
