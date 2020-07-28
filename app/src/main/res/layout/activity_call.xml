@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".Call">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="156dp"
+            android:layout_marginRight="156dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_centerHorizontal="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/police_badge"
+            tools:layout_editor_absoluteY="63dp" />
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_centerHorizontal="true"
+            android:layout_width="202dp"
+            android:layout_height="60dp"
+            android:background="@drawable/custom_button"
+            android:text="Police (100)"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFF"
+            android:layout_below="@id/animationView1"
+            android:layout_marginTop="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.251" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView2"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginEnd="156dp"
+            android:layout_marginRight="156dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/btnCall102"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/heart"
+            tools:layout_editor_absoluteY="63dp" />
+
+        <Button
+            android:id="@+id/btnCall102"
+            android:layout_centerHorizontal="true"
+            android:layout_width="202dp"
+            android:layout_height="60dp"
+            android:background="@drawable/custom_button"
+            android:text="Ambulance  (102)"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentBottom="true"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFF"
+            android:onClick="tapToFade"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.737" />
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/textView"-->
+        <!--        android:layout_centerHorizontal="true"-->
+        <!--        android:layout_width="263dp"-->
+        <!--        android:layout_height="38dp"-->
+        <!--        android:text="Call the nearest Police Station"-->
+        <!--        android:textAppearance="@style/TextAppearance.AppCompat.Medium"-->
+        <!--        android:textColor="#FFFFFF"-->
+        <!--        app:layout_constraintBottom_toTopOf="@+id/btnCall102"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintHorizontal_bias="0.608"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/btnCall"-->
+        <!--        app:layout_constraintVertical_bias="0.08" />-->
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/textView2"-->
+        <!--        android:layout_centerHorizontal="true"-->
+        <!--        android:layout_width="227dp"-->
+        <!--        android:layout_height="19dp"-->
+        <!--        android:text="        Call an ambulance"-->
+        <!--        android:textAppearance="@style/TextAppearance.AppCompat.Medium"-->
+        <!--        android:textColor="#FFFFFF"-->
+        <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/btnCall102"-->
+        <!--        app:layout_constraintVertical_bias="0.08" />-->
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

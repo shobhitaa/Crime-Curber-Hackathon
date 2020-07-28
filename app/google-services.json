@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "953851142347",
+    "firebase_url": "https://crime-curber-ad936.firebaseio.com",
+    "project_id": "crime-curber-ad936",
+    "storage_bucket": "crime-curber-ad936.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953851142347:android:df839f77e35688b31cfb4e",
+        "android_client_info": {
+          "package_name": "com.example.crimecurber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953851142347-f3ll52272l1ijpdhvjqlskuubk2sbpa3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crimecurber",
+            "certificate_hash": "5d27b7818c6c45491e9547fc967308a796ccb637"
+          }
+        },
+        {
+          "client_id": "953851142347-co01aonq03lmrb8ld165d6os512i5re6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe6SO0NMUZO-qDYrh8df6bKOS9xSB68ZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953851142347-co01aonq03lmrb8ld165d6os512i5re6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

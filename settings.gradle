@@ -1,0 +1,2 @@
+rootProject.name='Crime Curber'
+include ':app'

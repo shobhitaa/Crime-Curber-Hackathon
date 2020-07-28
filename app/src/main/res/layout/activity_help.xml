@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".Help">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/bg2"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/textone"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:text="ABOUT"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="395dp"
+            android:layout_below="@id/textone"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="-25dp"
+            android:layout_marginBottom="60dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Crime Curber can be used to report the crimes that happen in the city. It gives the platform of transferring pictures or recordings of wrongdoing scenes to guarantee that police may make a move right away. You can navigate to the nearest police station or hospital and call them and other emergency contacts if required."
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView3"-->
+    <!--        android:layout_width="122dp"-->
+    <!--        android:layout_height="46dp"-->
+    <!--        android:text="About"-->
+    <!--        android:textColor="#302F2F"-->
+    <!--        android:textSize="40sp"-->
+    <!--        tools:layout_editor_absoluteX="154dp"-->
+    <!--        tools:layout_editor_absoluteY="53dp" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Crime Curber</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location_permission_denied" />
+    <string name="permission_required_toast" />
+    <string name="permission_rationale_location" />
+    <string name="enter_name">Enter Name</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="add_contacts">Add Contacts</string>
+    <string name="sos">SOS</string>
+    <string name="fetch_contacts">Fetch Contacts</string>
+    <string name="delete_contact">Delete Contact</string>
+</resources>
+
