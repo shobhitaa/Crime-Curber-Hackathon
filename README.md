@@ -24,5 +24,5 @@ Most of the times people don't know where to upload visual evidence of wrongdoin
 
 ## Installation
 
-CLone this repository into your local machine and run it on android studio. You can use android emulator as well as an android phone to run it.
+Clone this repository into your local machine and run it on android studio. You can use android emulator as well as an android phone to run it.
 
